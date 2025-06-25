@@ -1,0 +1,28 @@
+import { Element } from '../types/phase';
+
+export const elements: Element[] = [
+  { symbol: 'Fe', name: 'Iron', atomicNumber: 26, category: 'transition' },
+  { symbol: 'C', name: 'Carbon', atomicNumber: 6, category: 'nonmetal' },
+  { symbol: 'Cr', name: 'Chromium', atomicNumber: 24, category: 'transition' },
+  { symbol: 'Ni', name: 'Nickel', atomicNumber: 28, category: 'transition' },
+  { symbol: 'Al', name: 'Aluminum', atomicNumber: 13, category: 'post-transition' },
+  { symbol: 'Ti', name: 'Titanium', atomicNumber: 22, category: 'transition' },
+  { symbol: 'Cu', name: 'Copper', atomicNumber: 29, category: 'transition' },
+  { symbol: 'Zn', name: 'Zinc', atomicNumber: 30, category: 'transition' },
+  { symbol: 'Mn', name: 'Manganese', atomicNumber: 25, category: 'transition' },
+  { symbol: 'Mo', name: 'Molybdenum', atomicNumber: 42, category: 'transition' },
+  { symbol: 'W', name: 'Tungsten', atomicNumber: 74, category: 'transition' },
+  { symbol: 'V', name: 'Vanadium', atomicNumber: 23, category: 'transition' },
+  { symbol: 'Nb', name: 'Niobium', atomicNumber: 41, category: 'transition' },
+  { symbol: 'Ta', name: 'Tantalum', atomicNumber: 73, category: 'transition' },
+  { symbol: 'Co', name: 'Cobalt', atomicNumber: 27, category: 'transition' },
+  { symbol: 'Mg', name: 'Magnesium', atomicNumber: 12, category: 'alkaline-earth' },
+  { symbol: 'Zr', name: 'Zirconium', atomicNumber: 40, category: 'transition' },
+  { symbol: 'Hf', name: 'Hafnium', atomicNumber: 72, category: 'transition' },
+  { symbol: 'Sn', name: 'Tin', atomicNumber: 50, category: 'post-transition' },
+  { symbol: 'Pb', name: 'Lead', atomicNumber: 82, category: 'post-transition' },
+  { symbol: 'Si', name: 'Silicon', atomicNumber: 14, category: 'metalloid' },
+  { symbol: 'N', name: 'Nitrogen', atomicNumber: 7, category: 'nonmetal' },
+  { symbol: 'O', name: 'Oxygen', atomicNumber: 8, category: 'nonmetal' },
+  { symbol: 'B', name: 'Boron', atomicNumber: 5, category: 'metalloid' },
+];
